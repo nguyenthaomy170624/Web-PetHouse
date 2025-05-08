@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Web_PetHouse||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|d:\\hk1_2025\\nangcao\\09_nguyenthaomy_pethouse\\web-cua-hang-thu-cung-pet-house\\web_pethouse\\web_pethouse\\admin\\xulydonhang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\xulydonhang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\xulydonhang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\xulydonhang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\bangdieukhien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\bangdieukhien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\bangdieukhien.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\bangdieukhien.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidungtemplate\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidungtemplate\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidung\\nguoidung.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidung\\nguoidung.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\bangdieukhien.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\bangdieukhien.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidung\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidung\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidung\\thongtin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidung\\thongtin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\kn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\kn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidung\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidung\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidung\\hoadon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidung\\hoadon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidung\\hoadon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidung\\hoadon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\danhmuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\danhmuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\danhmuc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\danhmuc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\nguoidung\\thongtin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\nguoidung\\thongtin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\donhang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\donhang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\web_pethouse\\admin\\sanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|solutionrelative:web_pethouse\\admin\\sanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC473A48-F2E0-48F0-AF08-9667960B743B}|Web_PetHouse\\Web_PetHouse.csproj|d:\\hk1_2025\\nangcao\\09_nguyenthaomy_pethouse\\web-cua-hang-thu-cung-pet-house\\web_pethouse\\web_pethouse\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web_PetHouse",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Web_PetHouse.csproj",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Web_PetHouse.csproj",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Web_PetHouse.csproj",
+              "RelativeToolTip": "Web_PetHouse\\Web_PetHouse.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T16:22:11.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguoiDung.Master",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\NguoiDung.Master",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDung\\NguoiDung.Master",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\NguoiDung.Master",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDung\\NguoiDung.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T10:03:26.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDungTemplate\\css\\style.css",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDungTemplate\\css\\style.css",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDungTemplate\\css\\style.css",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDungTemplate\\css\\style.css",
+              "ViewState": "AgIAAPMTAAAAAAAAAAAewAoUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-24T11:44:43.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DangKy.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\DangKy.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDung\\DangKy.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\DangKy.aspx",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDung\\DangKy.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T14:41:07.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XuLyDonHang.aspx.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\XuLyDonHang.aspx.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\XuLyDonHang.aspx.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\XuLyDonHang.aspx.cs",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\XuLyDonHang.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:28:52.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XuLyDonHang.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\XuLyDonHang.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\XuLyDonHang.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\XuLyDonHang.aspx",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\XuLyDonHang.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T11:58:26.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BangDieuKhien.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\BangDieuKhien.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\BangDieuKhien.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\BangDieuKhien.aspx",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\BangDieuKhien.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T12:16:26.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BangDieuKhien.aspx.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\BangDieuKhien.aspx.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\BangDieuKhien.aspx.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\BangDieuKhien.aspx.cs",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\BangDieuKhien.aspx.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwC8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:37:35.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThongTin.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\ThongTin.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDung\\ThongTin.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\ThongTin.aspx",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDung\\ThongTin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T09:53:25.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\Admin.Master",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\Admin.Master",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\Admin.Master",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\Admin.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T13:30:56.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BangDieuKhien.aspx.designer.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\BangDieuKhien.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\BangDieuKhien.aspx.designer.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\BangDieuKhien.aspx.designer.cs",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\BangDieuKhien.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:57:28.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThongTin.aspx.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\ThongTin.aspx.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDung\\ThongTin.aspx.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\ThongTin.aspx.cs",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDung\\ThongTin.aspx.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:55:15.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DangKy.aspx.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\DangKy.aspx.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDung\\DangKy.aspx.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\DangKy.aspx.cs",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDung\\DangKy.aspx.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwE0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:41:09.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KN.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\KN.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\KN.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\KN.cs",
+              "RelativeToolTip": "Web_PetHouse\\KN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:41:48.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DanhMuc.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\DanhMuc.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\DanhMuc.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\DanhMuc.aspx",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\DanhMuc.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T11:59:03.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DanhMuc.aspx.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\DanhMuc.aspx.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\DanhMuc.aspx.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\DanhMuc.aspx.cs",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\DanhMuc.aspx.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:59:20.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HoaDon.aspx.cs",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\HoaDon.aspx.cs",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDung\\HoaDon.aspx.cs",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\HoaDon.aspx.cs",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDung\\HoaDon.aspx.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:08:18.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HoaDon.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\HoaDon.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\NguoiDung\\HoaDon.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\NguoiDung\\HoaDon.aspx",
+              "RelativeToolTip": "Web_PetHouse\\NguoiDung\\HoaDon.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T12:32:22.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SanPham.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\SanPham.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\SanPham.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\SanPham.aspx",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\SanPham.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T12:18:21.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DonHang.aspx",
+              "DocumentMoniker": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\DonHang.aspx",
+              "RelativeDocumentMoniker": "Web_PetHouse\\Admin\\DonHang.aspx",
+              "ToolTip": "D:\\HK1_2025\\NangCao\\09_NguyenThaoMy_PetHouse\\Web-Cua-Hang-Thu-Cung-Pet-House\\Web_PetHouse\\Web_PetHouse\\Admin\\DonHang.aspx",
+              "RelativeToolTip": "Web_PetHouse\\Admin\\DonHang.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-24T12:32:09.077Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

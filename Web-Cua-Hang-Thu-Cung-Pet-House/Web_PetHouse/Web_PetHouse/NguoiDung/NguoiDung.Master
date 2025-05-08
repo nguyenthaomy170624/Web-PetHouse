@@ -1,0 +1,306 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NguoiDung.master.cs" Inherits="Web_PetHouse.NguoiDung.NguoiDung" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <title>Pet House - Cửa hàng mua bán thú cưng, phụ kiện, spa thú cưng</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="/HinhAnh/logo-pt.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../NguoiDungTemplate/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../NguoiDungTemplate/css/style.css" rel="stylesheet">
+
+    <!-- Add particles.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>
+        .text-primary {
+            color: #007bff !important;
+        }
+    </style>
+    <script>
+        $(function () {
+            var url = window.location.href;
+
+            $("#navbarCollapse a").each(function () {
+                if (url == this.href) {
+                    $(this).addClass("active");
+                }
+            });
+
+            updateCartCount();
+        });
+
+        function updateCartCount() {
+            $.ajax({
+                url: '/NguoiDung/GetCartCount.aspx',
+                method: 'GET',
+                success: function (data) {
+                    $('.cart_link .badge').text(data);
+                    if (data == "0" || !data) {
+                        $('.cart_link .badge').hide();
+                    } else {
+                        $('.cart_link .badge').show();
+                    }
+                },
+                error: function () {
+                    console.log("Không thể lấy số lượng giỏ hàng");
+                }
+            });
+        }
+
+      
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Add particles-js div (optional, if you want particle effects) -->
+        <div id="particles-js" style="position: absolute; width: 100%; height: 100%; z-index: -1;"></div>
+
+        <!-- Rest of your master page content remains unchanged -->
+        <% string navClass = string.Empty;
+            if (Request.Url.AbsoluteUri.ToString().Contains("TrangChu.aspx"))
+            {
+                navClass = "show";
+            }
+            else
+            {
+                navClass = "position-absolute";
+            }
+        %>
+        <!-- Topbar Start -->
+        <div class="container-fluid">
+            <div class="row bg-secondary py-2 px-xl-5" style="background-color: #0099FF">
+                <div class="col-lg-4 text-left">
+                    <div class="d-inline-flex align-items-center" style="font-size: 12px; color: #000000;">
+                        <i class="fas fa-map-marker-alt"></i> 
+                        <span class="ml-2">Cửa Hàng Miền Nam: 1045 Đường Kha Vạn Cân, Thủ Đức, Tp.HCM.</span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 text-center">
+                    <div class="d-inline-flex align-items-center justify-content-center">
+                        <a class="text-dark px-2" href="https://www.facebook.com/Binhtranpethouse">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-dark px-2" href="https://www.tiktok.com/@pethousesaigon" target="_blank">
+                            <img src="/HinhAnh/tik-tok.png" alt="TikTok" width="20" height="20">
+                        </a>
+                        <a class="text-dark px-2" href="tel:0379889868" target="_blank">
+                            <img src="/HinhAnh/phone-call.png" alt="Callus" width="20" height="20">
+                        </a>
+                        <a class="text-dark px-2" href="https://www.youtube.com/@pethousethucanhviet470">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-right">
+                    <div class="d-inline-flex align-items-center" style="font-size: 12px; color: #000000;">
+                        <i class="fas fa-map-marker-alt"></i> 
+                        <span class="ml-2">Cửa Hàng Miền Bắc: Số 293 Minh Khai, Quận Hai Bà Trưng, Tp.Hà Nội.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Rest of the Topbar and Navbar -->
+            <div class="row align-items-center py-3 px-xl-5">
+                <!-- Logo -->
+                <div class="col-lg-3 d-none d-lg-flex justify-content-center align-items-center">
+                    <a class="text-decoration-none">
+                        <h1 class="m-0 display-5 font-weight-semi-bold text-center">
+                            <span class="text-primary font-weight-bold border px-3 mr-1">
+                                <img src="/HinhAnh/logo-pt.png" alt="Logo" width="50" height="50">
+                            </span>Pet House
+                        </h1>
+                    </a>
+                </div>
+
+                <!-- Thanh tìm kiếm -->
+                <div class="col-lg-5 col-6 d-flex justify-content-center">
+                    <div class="input-group">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Tìm kiếm sản phẩm">
+                        <div class="input-group-append">
+                            <span id="searchBtn" class="input-group-text bg-transparent text-primary" style="cursor: pointer;">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Giỏ hàng -->
+                <div class="col-lg-1 col-1 d-flex justify-content-center">
+                    <a href="GioHang.aspx" class="nav-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cartCount" class="badge badge-primary"></span>
+                        <span class="badge rounded-pill bg-warning"><% Response.Write(Session["cartCount"] != null ? Session["cartCount"].ToString() : "0"); %></span>
+                    </a>
+                </div>
+
+                <!-- Tài khoản -->
+                <div class="col-lg-3 col-3 d-flex align-items-center">
+                    <asp:LinkButton ID="btnTK" runat="server" CssClass="user_link rounded-circle d-flex justify-content-center align-items-center"
+                        Style="width: 40px; height: 40px; border-radius: 50%; background-color: #f8f9fa; color: #333; border: 1px solid #ccc;"
+                        OnClick="btnTK_Click">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </asp:LinkButton>
+                    <asp:Label ID="lblUserName" runat="server" CssClass="align-content-md-center" BackColor="White" BorderColor="White" BorderStyle="Solid" Font-Bold="True" ForeColor="#0099FF"></asp:Label>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid mb-5">
+            <div class="row justify-content-center border-top px-xl-5"> 
+                <div class="col-lg-9">
+                    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                        <a class="text-decoration-none d-block d-lg-none">
+                            <h1 class="m-0 display-5 font-weight-semi-bold text-center">
+                                <span class="text-primary font-weight-bold border px-3 mr-1">
+                                    <img src="/HinhAnh/logo-pt.png" alt="TikTok" width="20" height="20">
+                                </span>Pet House
+                            </h1>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                            <div class="navbar-nav text-center">
+                                <a href="TrangChu.aspx" class="nav-item nav-link">Trang Chủ</a>
+                                <a href="CuaHang.aspx" class="nav-item nav-link">Cửa Hàng</a>
+                                <a href="ChiTiet.aspx" class="nav-item nav-link">Chi Tiết</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tiện Ích</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="GioHang.aspx" class="dropdown-item">Giỏ Hàng</a>
+                                        <a href="ThanhToan.aspx" class="dropdown-item">Thanh Toán</a>
+                                    </div>
+                                </div>
+                                <a href="LienHe.aspx" class="nav-item nav-link">Liên Hệ</a>
+                            </div>
+                            <div class="navbar-nav ml-auto py-0">
+                                <asp:Panel ID="pnlChuaDangNhap" runat="server">
+                                    <a href="DangNhap.aspx" class="nav-item nav-link login-btn" style="color: #FFFFFF; font-weight: bold;">Đăng nhập</a>
+                                    <a href="DangKy.aspx" class="nav-item nav-link signup-btn" style="color: #FFFFFF; font-weight: bold;">Đăng ký</a>
+                                </asp:Panel>
+                                <asp:Panel ID="pnlDaDangNhap" runat="server" Visible="false">
+                                    <asp:LinkButton ID="btnDangXuat" runat="server" CssClass="nav-item nav-link login-btn" Style="color: #FFFFFF; font-weight: bold;" OnClick="btnDangXuat_Click">Đăng xuất</asp:LinkButton>
+                                </asp:Panel>
+                            </div>
+                        </div>
+                    </nav>
+                    <asp:Panel ID="pmlSliderUC" runat="server"></asp:Panel>
+                </div> 
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h3>SƠ LƯỢC VỀ PET HOUSE</h3>
+                    <div class="divider"></div>
+                    <p><strong>Pet House</strong> là trại nhân giống cung cấp thú cảnh lớn tại Việt Nam. 
+                        Pet House hiện có 2 cửa hàng chính tại 
+                        <span class="text-red">293 Minh Khai, Quận Hai Bà Trưng, Tp Hà Nội</span> và 
+                        <span class="text-organge"> 1045 Kha Vạn Cân, Phường Linh Trung, Thủ Đức, Tp.Hcm</span>
+                    </p>
+                    <p>Ngoài ra, trại nhân giống chính của Pet House có tại Sóc Sơn Hà Nội và Thủ Dầu Một, Bình Dương đang sở hữu hơn 500 con giống với các loại thú cảnh lớn nhỏ khác nhau.</p>
+                </div>
+                <div class="col-lg-3">
+                    <h3>THÔNG TIN LIÊN HỆ</h3>
+                    <div class="divider"></div>
+                    <p>📍 Cửa Hàng Miền Nam: 1045 Kha Vạn Cân, Thủ Đức, Tp.HCM</p>
+                    <p>📍 Trại nhân giống MN: Huỳnh Văn Lũy, Bình Dương</p>
+                    <p>📍 Cửa Hàng Miền Bắc: 293 Minh Khai, Hà Nội</p>
+                    <p>📍 Trại nhân giống MB: Đức Hòa, Sóc Sơn, Hà Nội</p>
+                    <p>📞 <a href="tel:0379889868" style="color: #3b82f6">Hotline: 0379.889.868</a></p>
+                    <p>✉ <a href="mailto:PetHouseSaiGon@gmail.com" style="color: #3b82f6">Email: PetHouseSaiGon@gmail.com</a></p>
+                </div>
+                <div class="col-lg-3">
+                    <h3>CHÍNH SÁCH MUA BÁN</h3>
+                    <div class="divider"></div>
+                    <p>Chính sách bảo mật</p>
+                    <p>Chính sách vận chuyển và thanh toán</p>
+                    <p><a href="https://pethouse.com.vn/chinh-sach-bao-hanh/">Chính sách đổi trả và bảo hành</a></p>
+                    <p><a href="https://pethouse.com.vn/chinh-sach-tra-gop-0-tai-pet-house/">Chính sách hỗ trợ trả góp 0%</a></p>
+                    <a href="https://m.me/Binhtranpethouse" class="button" style="color: #FFFFFF; text-align: center;">Đăng Ký Khuyến Mại 🎁</a>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Pet House trên MXH</h3>
+                    <div class="divider"></div>
+                    <div class="social-links">
+                        <a href="https://m.me/Binhtranpethouse">📘 Facebook</a>
+                        <a href="https://www.tiktok.com/@thucanhviet">🎵 TikTok</a>
+                        <a href="0379889868">📞 Gọi ngay</a>
+                    </div>
+                    <div class="map">
+                        <h4>Shop Hà Nội</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31467.566649928962!2d105.863285!3d20.997016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad1900326e27%3A0x55a2ed798a97c7ab!2sPet%20House%20-%20Shop%20Th%C3%BA%20C%C6%B0ng!5e1!3m2!1svi!2sus!4v1741705268592!5m2!1svi!2sus"></iframe>
+                        <h4>Shop TpHCM</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8275.288775369745!2d106.762201!3d10.867628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752776f4e0e9b3%3A0x9c94334fb989e8c2!2zUGV0IEhvdXNlIFPDoGkgR8Oybg!5e1!3m2!1svi!2sus!4v1741705326946!5m2!1svi!2sus"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center py-3 mt-4 text-white">
+                <img src="../NguoiDungTemplate/HinhAnh/mastercard.png" alt="Mastercard" class="auto-style6" />
+                <img src="../NguoiDungTemplate/HinhAnh/visa.png" alt="Visa" class="auto-style6" />
+                <img src="../NguoiDungTemplate/HinhAnh/paypal.png" alt="PayPal" class="auto-style7" />
+                <br />
+                Copyright 2025© <strong> PetHouse - Trại nhân giống thú cưng</strong>
+            </div>
+        </footer>
+    </form>
+
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+   <!-- Scripts -->
+<script src="../NguoiDungTemplate/js/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../NguoiDungTemplate/lib/easing/easing.min.js"></script>
+<script src="../NguoiDungTemplate/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="../NguoiDungTemplate/mail/jqBootstrapValidation.min.js"></script>
+<script src="../NguoiDungTemplate/mail/contact.js"></script>
+<script src="../NguoiDungTemplate/js/main.js"></script>
+
+    <div class="float-contact">
+        <button class="chat-zalo">
+            <a href="https://zalo.me/0379889868" target="_blank" style="color: white; text-decoration: none;">
+                <img src="../NguoiDungTemplate/HinhAnh/icon-zalo.svg" width="25px"/>Chat Zalo
+            </a>
+        </button>
+        <button class="chat-face">
+            <a href="https://m.me/Binhtranpethouse" target="_blank" style="color: white; text-decoration: none;">
+                <i class="fab fa-facebook-messenger"></i> Chat Facebook
+            </a>
+        </button>
+        <button class="hotline-btn">
+            <a href="tel:#" style="color: white; text-decoration: none;">
+                <i class="fas fa-phone-alt"></i> Hotline: 0379889868
+            </a>
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Web_PetHouse.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../AdminTemplate/assets/images/logo-pt.png">
+    <title>Pet House - Admin</title>
+    <link href="../AdminTemplate/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="../AdminTemplate/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../AdminTemplate/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <link href="../AdminTemplate/dist/css/style.min.css" rel="stylesheet">
+    <link href="../AdminTemplate/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="../AdminTemplate/datatables/css/icon-font.min.css" rel="stylesheet" />
+    <link href="../AdminTemplate/datatables/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="preloader">
+            <div class="lds-ripple">
+                <div class="lds-pos"></div>
+                <div class="lds-pos"></div>
+            </div>
+        </div>
+        
+        <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+            data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+            
+            <header class="topbar" data-navbarbg="skin6">
+                <nav class="navbar top-navbar navbar-expand-md">
+                    <div class="navbar-header" data-logobg="skin6">
+                        <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                            <i class="ti-menu ti-close"></i>
+                        </a>
+                        <div class="navbar-brand" style="display: flex; flex-direction: column; align-items: center;">
+                            <a href="BangDieuKhien.aspx" style="text-decoration: none;">
+                                <span class="logo-icon">
+                                    <img src="../AdminTemplate/assets/images/logo-pt.png" alt="homepage" class="dark-logo" style="width:55px;height:55px">
+                                    <img src="../AdminTemplate/assets/images/logo-pt.png" class="light-logo" alt="homepage" style="width:55px;height:55px">
+                                </span>
+                                <span style="font-size: 20px; font-weight: bold; color: #3b82f6">PETHOUSE</span>
+                            </a>
+                        </div>
+                        <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                            data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="ti-more"></i>
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav float-left mr-auto ml-3 pl-1"></ul>
+                        <ul class="navbar-nav float-right">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img src="/HinhAnh/thoamy.jpg" alt="user" class="rounded-circle" width="40">
+                                    <span class="ml-2 d-none d-lg-inline-block">
+                                        <span>Chào,</span> <span class="text-dark">Admin</span>
+                                        <i data-feather="chevron-down" class="svg-icon"></i>
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                                    <a class="dropdown-item" href="TrangCaNhan.aspx">
+                                        <i data-feather="user" class="svg-icon mr-2 ml-1"></i> Trang cá nhân
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <asp:LinkButton ID="btnDangXuat" runat="server" CssClass="dropdown-item" OnClick="btnDangXuat_Click">
+                                        <i data-feather="power" class="svg-icon mr-2 ml-1"></i> Đăng xuất
+                                    </asp:LinkButton>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            
+            <aside class="left-sidebar" data-sidebarbg="skin6">
+                <div class="scroll-sidebar" data-sidebarbg="skin6">
+                    <nav class="sidebar-nav">
+                        <ul id="sidebarnav" style="font-family: 'Sans Serif Collection'; font-weight: bold;">
+                            <li class="sidebar-item">
+                                <a class="sidebar-link sidebar-link" href="BangDieuKhien.aspx" aria-expanded="false">
+                                    <i class="fas fa-tachometer-alt"></i><span class="hide-menu">Bảng điều khiển</span>
+                                </a>
+                            </li>
+                            <li class="list-divider"></li>
+                            <li class="nav-small-cap"><span class="hide-menu">Danh Mục</span></li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="DanhMuc.aspx" aria-expanded="false">
+                                    <i class="fas fa-tag"></i><span class="hide-menu">Danh Mục</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link sidebar-link" href="DanhMucCon.aspx" aria-expanded="false">
+                                    <i class="fas fa-tags"></i><span class="hide-menu">Danh Mục Con</span>
+                                </a>
+                            </li>
+                            <li class="list-divider"></li>
+                            <li class="nav-small-cap"><span class="hide-menu">Sản phẩm</span></li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="SanPham.aspx" aria-expanded="false">
+                                    <i class="fas fa-th-large"></i><span class="hide-menu">Sản phẩm</span>
+                                </a>
+                            </li>
+                            <li class="list-divider"></li>
+                            <li class="nav-small-cap"><span class="hide-menu">Người dùng</span></li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="KhachHang.aspx" aria-expanded="false">
+                                    <i class="fas fa-user-circle"></i><span class="hide-menu">Người dùng</span>
+                                </a>
+                            </li>
+                            <li class="list-divider"></li>
+                            <li class="nav-small-cap"><span class="hide-menu">Đơn hàng</span></li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="XuLyDonHang.aspx" aria-expanded="false">
+                                    <i class="fas fa-truck"></i><span class="hide-menu">Trạng thái đơn hàng</span>
+                                </a>
+                            </li>
+                            <li class="list-divider"></li>
+                            <li class="nav-small-cap"><span class="hide-menu">Phản hồi</span></li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link sidebar-link" aria-expanded="false">
+                                    <i class="fas fa-address-book"></i><span class="hide-menu">Liên lạc</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            
+            <div class="page-wrapper">
+                <div class="page-breadcrumb">
+                    <div class="row">
+                        <div class="col-7 align-self-center">
+                            <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">
+                                <%Response.Write(Session["breadCrumbTitle"]);%>
+                            </h3>
+                            <div class="d-flex align-items-center">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb m-0 p-0">
+                                        <li class="breadcrumb-item">
+                                            <a class="text-decoration-none" href="BangDieuKhien.aspx">Trang chủ</a>
+                                        </li>
+                                        <li class="breadcrumb-item text-muted active" aria-current="page">
+                                            <%Response.Write(Session["breadCrumbPage"]);%>
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container-fluid">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Scripts -->
+    <script src="../AdminTemplate/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../AdminTemplate/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../AdminTemplate/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../AdminTemplate/dist/js/app-style-switcher.js"></script>
+    <script src="../AdminTemplate/dist/js/feather.min.js"></script>
+    <script src="../AdminTemplate/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../AdminTemplate/dist/js/sidebarmenu.js"></script>
+    <script src="../AdminTemplate/dist/js/custom.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/dataTables.responsive.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/responsive.bootstrap4.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/dataTables.buttons.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.bootstrap4.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.print.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.html5.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.flash.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/pdfmake.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/jszip.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/vfs_fonts.js"></script>
+    <script src="../AdminTemplate/datatables/js/datatable-setting.js"></script>
+    <asp:PlaceHolder ID="ChartistScripts" runat="server" Visible="false">
+        <script src="../AdminTemplate/assets/extra-libs/c3/d3.min.js"></script>
+        <script src="../AdminTemplate/assets/extra-libs/c3/c3.min.js"></script>
+        <script src="../AdminTemplate/assets/libs/chartist/dist/chartist.min.js"></script>
+        <script src="../AdminTemplate/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+        <script src="../AdminTemplate/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+        <script src="../AdminTemplate/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+        <script src="../AdminTemplate/dist/js/dashboard-custom.js"></script>
+    </asp:PlaceHolder>
+</body>
+</html>
